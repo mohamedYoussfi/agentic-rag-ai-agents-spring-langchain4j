@@ -1,0 +1,42 @@
+
+Rapport de Thèse de Doctorat National
+De Mr. Hakimi Yassine,
+Sous le thème
+Reputation Computation Models from User-generated Content Using Aspect Based Sentiment Analysis
+Par Mohamed YOUSSFI
+Professeur de l’Enseignement Supérieur
+ENSET Mohammedia, Université Hassan II de Casablanca
+
+Mr. BOUMHIDI Achraf, présente un manuscrit de doctorat intitulé « Reputation Computation Models from User-generated Content Using Aspect Based Sentiment Analysis », pour l’obtention du diplôme de doctorat de de l’Université de SIDI MOHAMED BEN ABDELLAH de FES, spécialité Informatique.
+L'objectif principal de cette thèse est de développer des systèmes de prise de décision et de réputation qui analysent le contenu généré par les utilisateurs en vue de fournir des informations statistiques qui définissent le degré de satisfaction des clients envers les produits et services
+
+Après une introduction générale qui situe bien le problème par rapport à son contexte scientifique de recherche avec un aperçu globale sur les contributions apportées dans le cadre des ses travaux de recherche, le manuscrit de thèse présenté est structuré en Cinq chapitres en plus de l’introduction et de la conclusion générale.
+
+Le premier chapitre examine les travaux de recherche antérieurs effectués dans le domaine des techniques de traitement du langage naturel pour l’analyse des sentiments au niveau du document et l’analyse des sentiments basée sur les aspects, puisque l'extraction des sentiments à partir du langage naturel est l'un des principaux éléments qui compose nos systèmes de génération de réputation proposés. Ce chapitre présente également l’état de l’art sur les modèles de génération de réputation qui sont publiés dans la littérature.
+
+Le deuxième chapitre, propose un système capable de générer une valeur numérique entre 0 et 10 qui représente la réputation d'une entité (film, produit, hôtel, etc.) basée sur les opinions partagées sur la plateforme de médias sociaux Twitter. Le système proposé utilise une technique de traitement du langage naturel pour convertir les emojis associés aux Tweets en mots afin d'ajouter du sens aux opinions textuels. Cette technique permet d’améliorer la polarité de l'extraction des sentiments. En utilisant un modèle mathématique, le système a pu produire une valeur de réputation numérique jugée fiable.
+
+Dans chapitre 3, le doctorant propose un système qui permet d’analyser les opinions extraites d'Amazon et d'eBay pour générer une valeur de réputation numérique. Le système de réputation proposé convertit les notes numériques associées aux opinions partagées par les utilisateurs en mots. Cette procédure permet d’améliorer la précision de l’extraction des sentiments des opinions textuelles, ce qui conduit à une génération de réputation accentuée.
+
+Le chapitre 4 présente un système de réputation qui exploite l'orientation sentimentale des opinions textuelles, l'intensité sentimentale des opinions et la crédibilité des utilisateurs et des opinions pour calculer un score numérique qui reflète la réputation d'une entité spécifique (film, produit, restaurant etc.).
+
+Le chapitre 5 présente un système de réputation multiplateforme qui intègre le filtrage du spam, la popularité des opinions, l’heure de publication des opinions et l’analyse des sentiments basée sur les aspects pour générer des valeurs de réputation précises et fiables. Le système propos é offre également un outil de visualisation avancé et convivial qui affiche des informations détaillées sur la réputation d’une entité en question.
+
+Dans la conclusion générale, Mr. BOUMHIDI Achraf a présenté soigneusement une synthèse de ses contributions ainsi que les perspectives de ses travaux de recherche. Cette synthèse montre la très bonne qualité du travail effectué dans le cadre de cette thèse. Les résultats obtenus dans cette thèse, ont fait l’objet de plusieurs publications dans des journaux internationaux indexés et ont été présentés dans plusieurs conférences internationales indexées. Les résultats obtenus sont d’une extrême valeur ajoutée pour la recherche scientifique et ouvre des perspectives très prometteuses dans le domaine des sciences de données et de l’intelligence artificielle. Mr. BOUMHIDI Achraf a montré une grande maitrise des aspects scientifiques et technologiques de son sujet de recherche, ce qui lui a permis de produire un manuscrit de thèse très riche en termes de contenu et bien présenté. Toutefois j’ai relevé un certain nombre de remarques qui méritent d’être débattues et à prendre en considération en tant que recommandations pour orienter les travaux de recherches futurs :
+•	L’utilisation des modèles dérivés de réseaux de neurones récurrents (RNN) comme GRU, LSTM et les Transformers à travers le modèle pré-entraîné BERT est un bon choix pour la classification des sentiments en produisant des représentations des mots qui changent selon le contexte (Mots qui l’entourent). Toutefois, il me semble que l’efficacité de ce modèle nécessite la prise en considération la sémantique grammaticale de la langue utilisée par le modèle pré-entrainé.
+•	Le calcul du score de réputation dépend uniquement de nombre de tweets positives et négatives. Ce qui donne un score représentatif entre 0 et 10 du niveau de réputation. Toutefois, cette formule, beaucoup simpliste, ne prend pas en considération d’autres paramètres qui peuvent donner plus crédibilité à ce score, comme le nombre d’instance totale des tweets, le contexte d’émission des tweets, le poids des tweets, la crédibilité des tweets, l’ordre des tweets positifs et des tweets négatifs, etc. Il me semble important de penser à hybrider le modèle proposé avec une FUZY classification et peut être un algorithme d’apprentissage par renforcement comme QLearning, pour améliorer la précision de la mesure de la réputation et de construire un système de prise de décision.
+
+Conclusion :
+La méthodologie suivie et la bonne qualité des travaux de recherche réalisés, dans le cadre de cette thèse de doctorat, m’ont convaincu que le travail présenté est de grande qualité.
+La problématique à résoudre est qualifié de haut niveau dans le domaine de la recherche scientifique. L’approche adoptée est bien appropriée pour un tel problème aussi complexe.
+Les résultats obtenus sont très prometteurs et ouvrent de bonnes perspectives et de nouveaux axes de recherche scientifiques dans l’application de l’intelligence artificielle pour l’automatisation du processus de prédiction des tendances et de prises de décisions dans le domaine des réseaux sociaux.
+Pour toutes ces raisons, je suis Très Favorable à la soutenance de ce travail pour l’obtention du diplôme du doctorat de doctorat de l’Université de SIDI MOHAMED BEN ABDELLAH de FES, spécialité Informatique, dans les plus brefs délais.
+
+
+Fait par : Mohamed YOUSSFI
+Professeur des Universités (PES) à l’ENSET, Université Hassan II de Casablanca, Maroc.
+Tel : 0661326837
+Email : med@youssfi.net
+Mohammedia le 26/12/2022
+
+

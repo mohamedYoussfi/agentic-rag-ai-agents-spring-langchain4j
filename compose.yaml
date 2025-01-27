@@ -1,0 +1,19 @@
+services:
+  pgvector:
+    container_name: webinaire-agpgdb
+    image: 'pgvector/pgvector:pg16'
+    environment:
+      - 'POSTGRES_DB=agenticRagDb'
+      - 'POSTGRES_PASSWORD=1234'
+      - 'POSTGRES_USER=admin'
+    volumes:
+      - agentic_rag_chatbot_data:/var/lib/postgresql/data
+    ports:
+      - '5432:5432'
+    networks:
+      - agentic-chatbot-net
+volumes:
+  agentic_rag_chatbot_data:
+networks:
+  agentic-chatbot-net:
+    driver: bridge

@@ -1,0 +1,23 @@
+<div class="p-3">
+  @if (transactions){
+    <table class="table">
+      <thead>
+      <tr>
+        <th>ID</th><th>Date</th><th>AccountId</th><th>Type</th><th>Amount</th><th>Status</th>
+      </tr>
+      </thead>
+      <tbody>
+        @for (transaction of transactions ; track transaction){
+          <tr>
+            <td>{{transaction.id}}</td>
+            <td>{{transaction.date}}</td>
+            <td>{{transaction.accountId}}</td>
+            <td>{{transaction.type}}</td>
+            <td>{{transaction.amount}}</td>
+            <td>{{transaction.status}}</td>
+          </tr>
+        }
+      </tbody>
+    </table>
+  }
+</div>
